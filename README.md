@@ -2,6 +2,9 @@
 
 A simple, heartfelt web page designed to send love, positivity, and good vibes to someone who isn't feeling well. This project promotes love and care through a thoughtful, interactive experience that anyone can share.
 
+![image](https://github.com/user-attachments/assets/018893d9-09c2-4c18-876a-3b4ee33d5f22)
+
+
 ## Features
 
 - **Home Section**: A warm and encouraging message with a heart animation to cheer someone up.
