@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Better Soon ❤️</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        .heart {
+            color: red;
+            font-size: 100px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-pink-100 flex items-center justify-center h-screen p-4">
+
+    <!-- Home Section -->
+    <div id="home" class="text-center max-w-md mx-auto">
+        <div class="heart">❤️</div>
+        <h1 class="text-4xl font-bold text-gray-800 mt-6">Get Better Soon!</h1>
+        <p class="text-xl text-gray-600 mt-4">Thinking of you and sending all my love. Hope you feel better soon! 💕</p>
+        <div class="mt-8">
+            <a href="#" onclick="showSection('love-notes')" class="text-pink-500 text-xl underline">Love Notes</a> | 
+            <a href="#" onclick="showSection('heart-gallery')" class="text-pink-500 text-xl underline">Heart Gallery</a>
+        </div>
+        <div class="mt-8">
+            <p class="text-xl text-gray-600">Remember, every day is a new chance to get better and stronger. I'm sending you all my positive energy. 💪</p>
+        </div>
+    </div>
+
+    <!-- Love Notes Section -->
+    <div id="love-notes" class="text-center max-w-md mx-auto hidden">
+        <h1 class="text-4xl font-bold text-gray-800">Love Notes ❤️</h1>
+        <p class="text-xl text-gray-600 mt-6">You are the brightest part of so many days, and I can't wait to see you smile again. Get well soon!</p>
+        <p class="text-xl text-gray-600 mt-4">Every day with you is a blessing. You're loved more than you know. 💖</p>
+        <p class="text-xl text-gray-600 mt-4">You're one of the strongest people, and I know you'll feel better soon. Sending all my love! 💌</p>
+        <p class="text-xl text-gray-600 mt-4">No matter what, you have so many people rooting for you. Your happiness and health mean everything to us. 🌟</p>
+        <div class="mt-8">
+            <a href="#" onclick="showSection('home')" class="text-pink-500 text-xl underline">Back to Home</a> | 
+            <a href="#" onclick="showSection('heart-gallery')" class="text-pink-500 text-xl underline">Heart Gallery</a>
+        </div>
+    </div>
+
+    <!-- Heart Gallery Section -->
+    <div id="heart-gallery" class="text-center max-w-md mx-auto hidden">
+        <h1 class="text-4xl font-bold text-gray-800">Heart Gallery ❤️</h1>
+        <div class="grid grid-cols-2 gap-4 mt-6">
+            <div class="text-5xl">💖</div>
+            <div class="text-5xl">💘</div>
+            <div class="text-5xl">💝</div>
+            <div class="text-5xl">💓</div>
+            <div class="text-5xl">💗</div>
+            <div class="text-5xl">💞</div>
+            <div class="text-5xl">💕</div>
+            <div class="text-5xl">💟</div>
+        </div>
+        <div class="mt-8">
+            <p class="text-xl text-gray-600">These hearts represent all the love and care that's being sent your way. Every single one symbolizes a moment of support and positivity. 💕</p>
+        </div>
+        <div class="mt-8">
+            <a href="#" onclick="showSection('home')" class="text-pink-500 text-xl underline">Back to Home</a> | 
+            <a href="#" onclick="showSection('love-notes')" class="text-pink-500 text-xl underline">Love Notes</a>
+        </div>
+    </div>
+
+    <!-- JavaScript to Handle Section Display -->
+    <script>
+        function showSection(section) {
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('love-notes').classList.add('hidden');
+            document.getElementById('heart-gallery').classList.add('hidden');
+            
+            document.getElementById(section).classList.remove('hidden');
+        }
+    </script>
+
+</body>
+</html>
