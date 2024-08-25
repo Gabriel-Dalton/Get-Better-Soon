@@ -2,14 +2,17 @@
 
 A simple, heartfelt web page designed to send love, positivity, and good vibes to someone who isn't feeling well. This project promotes love and care through a thoughtful, interactive experience that anyone can share.
 
-![image](https://github.com/user-attachments/assets/018893d9-09c2-4c18-876a-3b4ee33d5f22)
-
-
 ## Features
 
 - **Home Section**: A warm and encouraging message with a heart animation to cheer someone up.
 - **Love Notes Section**: Sweet and supportive notes to remind them how much they are loved and cared for.
 - **Heart Gallery Section**: A collection of heart emojis representing love, support, and positivity.
+
+![image](https://github.com/user-attachments/assets/018893d9-09c2-4c18-876a-3b4ee33d5f22)
+![image](https://github.com/user-attachments/assets/62c8063a-3ae0-4986-b390-c43c75c6deb9)
+![image](https://github.com/user-attachments/assets/434bad4d-7237-46bc-9df3-165d70333836)
+
+
 
 ## How to Use
 
